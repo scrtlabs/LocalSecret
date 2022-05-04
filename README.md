@@ -1,7 +1,11 @@
 # LocalSecret
 An instant, zero-config Secret Network blockchain.
 
-Docs: https://docs.scrt.network/dev/LocalSecret.html
+```bash
+docker run -it -p 9091:9091 -p 26657:26657 -p 1317:1317 -p 5000:5000 --name localsecret ghcr.io/scrtlabs/localsecret
+```
+
+Full docs: https://docs.scrt.network/dev/LocalSecret.html
 
 # Source
 
